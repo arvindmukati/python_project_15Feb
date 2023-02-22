@@ -11,3 +11,8 @@ length = len(numbers)
 for i in range(0,length):
     if numbers[i] <= 50:
         print(numbers[i])
+for i in range(0,length):
+    if numbers[i] == 24:
+        print("24 is found")
+        break
+
