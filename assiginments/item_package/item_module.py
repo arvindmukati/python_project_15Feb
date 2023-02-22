@@ -7,7 +7,7 @@ class Item:
         self.price = price
 
 
-    if qty == 2
+   # if qty == 2
 
     final_price = (price – (self.price * 10 / 100))*self.quanitity
 
