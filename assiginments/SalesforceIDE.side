@@ -1,0 +1,251 @@
+{
+  "id": "0d0f9eaa-af4c-4a35-b1d0-d8e36dcd93f6",
+  "version": "2.0",
+  "name": "Salesforce",
+  "url": "https://www.salesforce.com",
+  "tests": [{
+    "id": "94e909de-da37-4725-8a36-5c1c031f471c",
+    "name": "Login",
+    "commands": [{
+      "id": "e5ff8f32-e1c0-4e5d-8af9-3c33ca70dab5",
+      "comment": "",
+      "command": "open",
+      "target": "/in/form/signup/freetrial-sales/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b32c0c7-ccb1-4b0e-ace4-7967762a2e1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b351cc20-c821-4ed6-9153-854175fe2b29",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserFirstName-l3XD",
+      "targets": [
+        ["id=UserFirstName-l3XD", "id"],
+        ["name=UserFirstName", "name"],
+        ["css=#UserFirstName-l3XD", "css:finder"],
+        ["xpath=//input[@id='UserFirstName-l3XD']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5271aa3-939d-4b65-83dd-053fce67673e",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserFirstName-l3XD",
+      "targets": [
+        ["id=UserFirstName-l3XD", "id"],
+        ["name=UserFirstName", "name"],
+        ["css=#UserFirstName-l3XD", "css:finder"],
+        ["xpath=//input[@id='UserFirstName-l3XD']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Jhon"
+    }, {
+      "id": "b7d65f0b-489e-468e-8639-d2364121d9aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserLastName-h04U",
+      "targets": [
+        ["id=UserLastName-h04U", "id"],
+        ["name=UserLastName", "name"],
+        ["css=#UserLastName-h04U", "css:finder"],
+        ["xpath=//input[@id='UserLastName-h04U']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "wick"
+    }, {
+      "id": "1c683808-a775-431b-955d-55b33c205dd4",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserEmail-7vgr",
+      "targets": [
+        ["id=UserEmail-7vgr", "id"],
+        ["name=UserEmail", "name"],
+        ["css=#UserEmail-7vgr", "css:finder"],
+        ["xpath=//input[@id='UserEmail-7vgr']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "jhon@gmail.com"
+    }, {
+      "id": "4d29b891-0d23-4fcf-b3a5-8c4b9b84dbda",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserTitle-vwll",
+      "targets": [
+        ["id=UserTitle-vwll", "id"],
+        ["name=UserTitle", "name"],
+        ["css=#UserTitle-vwll", "css:finder"],
+        ["xpath=//select[@id='UserTitle-vwll']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[2]/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db7798fd-03db-4d19-9a7b-ce192d287425",
+      "comment": "",
+      "command": "select",
+      "target": "id=UserTitle-vwll",
+      "targets": [],
+      "value": "label=IT Manager"
+    }, {
+      "id": "4c61690d-c140-41c7-a94e-528a58ee71f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=CompanyName-WuTt",
+      "targets": [
+        ["id=CompanyName-WuTt", "id"],
+        ["name=CompanyName", "name"],
+        ["css=#CompanyName-WuTt", "css:finder"],
+        ["xpath=//input[@id='CompanyName-WuTt']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3cf5fc-4856-4ebf-916c-08cfffd0f620",
+      "comment": "",
+      "command": "type",
+      "target": "id=CompanyName-WuTt",
+      "targets": [
+        ["id=CompanyName-WuTt", "id"],
+        ["name=CompanyName", "name"],
+        ["css=#CompanyName-WuTt", "css:finder"],
+        ["xpath=//input[@id='CompanyName-WuTt']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "3f76a257-8726-4a5f-81fc-741a2974bba5",
+      "comment": "",
+      "command": "click",
+      "target": "id=CompanyEmployees-nUbK",
+      "targets": [
+        ["id=CompanyEmployees-nUbK", "id"],
+        ["name=CompanyEmployees", "name"],
+        ["css=#CompanyEmployees-nUbK", "css:finder"],
+        ["xpath=//select[@id='CompanyEmployees-nUbK']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[3]/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8076fe78-77ec-4d0d-ab85-1d0bc4036392",
+      "comment": "",
+      "command": "select",
+      "target": "id=CompanyEmployees-nUbK",
+      "targets": [],
+      "value": "label=101 - 500 employees"
+    }, {
+      "id": "24aefd1c-d88f-4a9d-bd1b-2c0132637ae0",
+      "comment": "",
+      "command": "click",
+      "target": "id=CompanyCountry-t7zL",
+      "targets": [
+        ["id=CompanyCountry-t7zL", "id"],
+        ["name=CompanyCountry", "name"],
+        ["css=#CompanyCountry-t7zL", "css:finder"],
+        ["xpath=//select[@id='CompanyCountry-t7zL']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[4]/div/div[2]/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c72fb0e4-461b-46a4-b26a-4ba86ea06e56",
+      "comment": "",
+      "command": "select",
+      "target": "id=CompanyCountry-t7zL",
+      "targets": [],
+      "value": "label=United States"
+    }, {
+      "id": "af1c970b-9928-4414-8fe3-42710f5e3f14",
+      "comment": "",
+      "command": "click",
+      "target": "id=CompanyState-3XNz",
+      "targets": [
+        ["id=CompanyState-3XNz", "id"],
+        ["name=CompanyState", "name"],
+        ["css=#CompanyState-3XNz", "css:finder"],
+        ["xpath=//select[@id='CompanyState-3XNz']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[4]/div/div[2]/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa12cb0-0b2d-44d6-ab1d-1d11a369f238",
+      "comment": "",
+      "command": "select",
+      "target": "id=CompanyState-3XNz",
+      "targets": [],
+      "value": "label=Alabama"
+    }, {
+      "id": "117c2f99-9842-40b2-8bbd-6cb95082b56c",
+      "comment": "",
+      "command": "click",
+      "target": "name=start my free trial",
+      "targets": [
+        ["name=start my free trial", "name"],
+        ["css=.submit", "css:finder"],
+        ["xpath=//button[@name='start my free trial']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[13]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb5533b1-ea8d-4435-8c3a-c0b1c0b86818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.msaCheckbox .field",
+      "targets": [
+        ["css=.msaCheckbox .field", "css:finder"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[5]/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de99d743-7249-4a28-8cdc-eb38cd63fc8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.error > .checkbox-ui",
+      "targets": [
+        ["css=.error > .checkbox-ui", "css:finder"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[5]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9753ee92-3e40-403c-8bf4-0847af7b89ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=start my free trial",
+      "targets": [
+        ["name=start my free trial", "name"],
+        ["css=.submit", "css:finder"],
+        ["xpath=//button[@name='start my free trial']", "xpath:attributes"],
+        ["xpath=//form[@id='signup_form_KwTQ']/div[13]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d9b53613-0757-4bd6-a9b7-51cc42945a04",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["94e909de-da37-4725-8a36-5c1c031f471c"]
+  }],
+  "urls": ["https://www.salesforce.com/"],
+  "plugins": []
+}
